@@ -1,0 +1,125 @@
+.country_info{
+    margin-top: 50px;
+    padding:0px 50px;
+
+
+    .backBtnContainer{
+        margin-bottom: 30px;
+    }
+
+    .BackBtn{
+        padding: 5px 25px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: var(--background_card_color);
+        color:var(--text-color);
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    img{
+        height:300px;
+        width:100%;
+        border-radius: 10px;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        image-rendering: crisp-edges;
+    }
+
+    img:hover{
+        transform: scale(1.05);
+    }
+
+    .title{
+        font-weight: 800;
+        font-size: 130%;
+    }
+
+    .sub-info{
+        display: flex;
+        align-items: center;
+        margin:5px 0px;
+
+
+        .title{
+            font-weight: 500;
+            margin-bottom: 0px;
+            font-size: 100%;
+            margin-right:5px;
+
+        }
+
+        .value{
+            font-weight: 300;
+        }
+    }
+
+    .info{
+        display: flex;
+    }
+
+
+
+
+    .border-countries-info{
+
+        margin-top: 30px;
+        display: flex;
+
+        .title{
+            font-weight: 500;
+            margin-bottom: 0px;
+            font-size: 100%;
+            margin-right: 15px;
+        }
+
+        .chip{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 3px 30px;
+            margin-right: 5px;
+            border-radius: 5px;
+            background-color: var(--background_card_color);
+            color:var(--text-color);
+            font-weight: 300;
+        }
+
+        .values{
+            display: inline;
+        }
+
+        .noValues{
+            font-weight: 300 !important;
+            color:var(--text-color);
+        }
+    }
+
+    @media (max-width: 395px) {
+
+        .title{
+            margin-top:30px;
+        }
+          
+        .info{
+            flex-direction: column;
+
+            .section-two{
+                margin-top: 40px;
+            }
+        }
+
+        .sub-info{
+            .title{
+              margin-top: 0px;
+            }
+        }
+
+        .border-countries-info
+        {
+            flex-direction: column;
+
+            .values{
+                margin-top: 20px;
+            }
+        }
+    }
+
+}

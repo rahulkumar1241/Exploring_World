@@ -1,0 +1,20 @@
+.homepage {
+    padding: 0px 60px;
+
+    .filter-section{
+        display: flex;
+    }
+    
+    @media (max-width: 395px) {
+        padding: 0px 40px;
+
+        .filter-section{
+            flex-direction: column;
+        }
+
+        .dropdown{
+            margin-top:10px;
+            margin-left:15px;
+        }
+    }
+}

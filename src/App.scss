@@ -1,0 +1,20 @@
+@import "./color-constants.scss";
+
+.dark-theme {
+    --background_color: #{$very-dark-blue};
+    --text-color: #{$white};
+    --background_card_color: #{$dark-blue};
+    --search_input_color:#{$white};
+}
+
+.light-theme {
+    --background_color: #{$light-gray};
+    --text-color: #{$text-color};
+    --background_card_color: #{$white};
+    --search_input_color:#{$dark-gray};
+}
+
+body {
+    background-color: var(--background_color) !important;
+    color:var(--text-color) !important;
+}

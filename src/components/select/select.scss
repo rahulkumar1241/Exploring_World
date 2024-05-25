@@ -1,0 +1,23 @@
+.mySelect {
+    select {
+        height: 40px;
+        padding: 0px 15px;
+        border: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+        background-color: var(--background_card_color);
+        color: var(--text-color);
+        outline: none;
+        cursor: pointer;
+    }
+
+    select:active {
+        outline: none;
+    }
+
+    select:after {
+        border: none;
+
+    }
+
+}

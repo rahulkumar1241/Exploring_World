@@ -1,0 +1,29 @@
+.navbar {
+  height: 60px;
+  background-color: var(--background_card_color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 85px !important;
+
+  .title {
+    font-weight: 800;
+    font-size: 120%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .mode-info {
+    margin: 0px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  @media (max-width: 395px) {
+    height: 80px;
+    padding: 0px 20px !important;
+  }
+}
